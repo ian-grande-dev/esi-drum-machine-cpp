@@ -1,0 +1,18 @@
+# Local files that must not go to GitHub
+_backup_before_cleanup/
+samplepack/
+*.wav
+*.WAV
+
+# Old libraries from the school submodule (CMake now downloads the libraries)
+drum-machine-project/libraries/
+
+# Created by the app next to the executable
+preferences.txt
+
+# IDE and build folders
+.idea/
+.vscode/
+.vs/
+cmake-build-*/
+build/
